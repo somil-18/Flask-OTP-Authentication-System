@@ -9,7 +9,6 @@ app.secret_key = 'supersecretkey'
 
 # Database Configuration
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///user.db'
-# app.config['SQLALCHEMY_DATABASE_URI'] = "mssql+pyodbc://@DESKTOP-F91EBN7/nest?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -18,9 +17,9 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
-app.config['MAIL_USERNAME'] = 'rommie152@gmail.com'
-app.config['MAIL_PASSWORD'] = 'busy mbky fvzv gybr'
-app.config['MAIL_DEFAULT_SENDER'] = 'rommie152@gmail.com'
+app.config['MAIL_USERNAME'] = '' # add your email here
+app.config['MAIL_PASSWORD'] = '' # add your email password here
+app.config['MAIL_DEFAULT_SENDER'] = '' # add your email here
 mail = Mail(app)
 
 # User Model
