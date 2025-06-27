@@ -59,10 +59,11 @@ A simple web-based user authentication system built using **Flask**, featuring u
 ---
 
 ## 📦 Dependencies
+👉 To install all required libraries, see [requirements.txt](requirements.txt)
 
 Install via:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
