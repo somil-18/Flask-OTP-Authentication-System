@@ -31,6 +31,7 @@ A simple web-based user authentication system built using **Flask**, featuring u
 └── requirements.txt # Python dependencies
 
 
+
 ---
 
 ## ✅ API Routes
@@ -60,7 +61,7 @@ Install via:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
