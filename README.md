@@ -18,17 +18,20 @@ A simple web-based user authentication system built using **Flask**, featuring u
 
 ## 📁 Project Structure
 
-├── app.py # Main Flask application
+```
+├── app.py               # Main Flask application
 ├── templates/
-│ ├── signup.html
-│ ├── login.html
-│ ├── main.html
-│ ├── rent.html
-│ ├── list.html
-│ ├── contact.html
-│ └── about.html
-├── user.db # SQLite database
-└── requirements.txt # Python dependencies
+│   ├── signup.html
+│   ├── login.html
+│   ├── main.html
+│   ├── rent.html
+│   ├── list.html
+│   ├── contact.html
+│   └── about.html
+├── user.db              # SQLite database
+└── requirements.txt     # Python dependencies
+```
+
 
 
 
