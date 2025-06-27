@@ -17,9 +17,9 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
-app.config['MAIL_USERNAME'] = '' # add your email here
-app.config['MAIL_PASSWORD'] = '' # add your email password here
-app.config['MAIL_DEFAULT_SENDER'] = '' # add your email here
+app.config['MAIL_USERNAME'] = '' # email id through which OTP will be sent to user
+app.config['MAIL_PASSWORD'] = '' # email id password through which OTP will be sent to user
+app.config['MAIL_DEFAULT_SENDER'] = '' # email id through which OTP will be sent to user
 mail = Mail(app)
 
 # User Model
