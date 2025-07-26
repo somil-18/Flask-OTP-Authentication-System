@@ -28,8 +28,10 @@ A simple web-based user authentication system built using **Flask**, featuring u
 │   ├── list.html
 │   ├── contact.html
 │   └── about.html
-├── user.db              # SQLite database
+├── static/
+│   └── OTP_Auth_Demo.mp4  # Demo video file    
 └── requirements.txt     # Python dependencies
+
 ```
 
 
